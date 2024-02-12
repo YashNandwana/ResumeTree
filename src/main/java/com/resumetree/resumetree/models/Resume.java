@@ -11,7 +11,9 @@ public class Resume
     @Id
     @Indexed(unique = true)
     private String rid;
+    @Indexed(unique = true)
     private String uid;
+    @Indexed(unique = true)
     private String cid;
     private String alias;
     private Integer version;
